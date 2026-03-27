@@ -2,7 +2,7 @@ name = "line-crm-worker"
 main = "src/index.ts"
 compatibility_date = "2024-12-01"
 workers_dev = true
-account_id = "37f8f88be4c099329e4647bda211bb9f"
+account_id = "40a707b1ebdb41b6b1b21a57da817e28"
 
 # API_KEY is set via `wrangler secret put API_KEY`
 # Do NOT hardcode secrets here
@@ -13,7 +13,7 @@ WORKER_URL = "https://line-crm-worker.line-crm-api.workers.dev"
 [[d1_databases]]
 binding = "DB"
 database_name = "line-crm"
-database_id = "YOUR_D1_DATABASE_ID"
+database_id = "c1158e8c-dcda-4650-a2bd-13f0462d15c0"
 
 [triggers]
 crons = ["*/5 * * * *"]
